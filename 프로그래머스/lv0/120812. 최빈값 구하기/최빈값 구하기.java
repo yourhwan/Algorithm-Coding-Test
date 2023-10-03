@@ -32,10 +32,4 @@ public class Solution {
         return mode;
     }
 
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[] array = {1, 2, 2, 3, 3, 3};
-        int result = solution.solution(array);
-        System.out.println("최빈값: " + result);
-    }
 }
