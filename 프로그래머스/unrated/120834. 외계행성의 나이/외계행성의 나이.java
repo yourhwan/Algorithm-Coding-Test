@@ -5,7 +5,9 @@ class Solution {
         String[] arr = a.split("");
         
         for(String change : arr) {
-            answer += (char)(Integer.parseInt(change)+97); 
+            answer += (char)(Integer.parseInt(change)+97);
+            // Integer.toString(Integer.parseInt(element) + 97); 해당 코드도 가능
+            // 해당 풀이에서는 toString이 더 일관된 코드라고 할 수 있다. (문자열로 표현하기 때문에) 
         }
         
         return answer;
